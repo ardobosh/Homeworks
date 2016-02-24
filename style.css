@@ -1,0 +1,104 @@
+#body{
+    background:#DDD4B6
+      }
+
+.bg{
+    position: fixed;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+}
+
+.card{
+    position: relative;
+    top: 20px;
+    width:600px;
+    margin: 0 auto;
+    padding-left:30px;
+    padding-right: 30px;
+    text-align:center;
+    background-color: white;
+    overflow: hidden;
+    font-family: verdana;
+}
+
+.title{
+    font: 40pt Georgia;
+    color: orange;
+}
+
+.title2{
+    font: 14pt Verdana;
+    font-weight: bold;
+    color: orange;
+}
+.flag{
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+.temple{
+    position: relative;
+    width:300px;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+}
+
+.myTable{
+    position: relative;
+    margin: 0px auto;
+    text-align: center;
+    font: 10pt verdana;
+}
+
+.myTable th{
+    padding: 20px;
+    background-color: #F3DFBA;
+}
+.myTable tr{
+    padding: 20px;
+    background-color: #FFF2D4;
+}
+.myTable tr:hover{
+    background-color: #EFC6A0;
+    cursor: default;
+}
+.myTable tr td{
+    padding: 10px 50px;
+}
+
+.social{
+    position: relative;
+    margin: 20px;
+}
+.social h3{
+    font: 16pt Georgia;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    color: grey
+}
+.social a{
+    font-size: 16px;
+    color: #F59900;
+}
+
+.social a:hover{
+    font-size: 16px;
+    color: #648880;
+}
+
+blockquote {
+    margin: 50px 20px 30px 20px;
+    padding: 0px 5px 30px 5px;
+    line-height: 1;
+    background: #FFF9EC;
+    border-top: 2px solid orange;
+  }
